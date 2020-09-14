@@ -28,6 +28,10 @@ a:hover {
     text-decoration: none;
 }
 
+ul {
+    list-style: none;
+}
+
 h1 ,h2, h3 {
     color:black;
     color:var(--dark-grayish-blue);
@@ -73,6 +77,10 @@ p {
 .header__button-container {
     /* background: darkgrey; */
     margin-top:1.5rem;
+
+    /* width:50%;
+    margin:0 auto; */
+
     display:flex;
     justify-content: center;
     align-items:center;
@@ -110,4 +118,45 @@ p {
 
 
 
-/**/
+
+/*selling-points*/
+
+.selling-points {
+    margin-top:5rem;
+}
+
+.selling-points__header p {
+    width:60ch;
+    margin:0 auto;
+}
+
+.selling-points__header {
+    margin-bottom:3rem;
+}
+
+/* .selling-points__img {
+    max-width:30rem;
+    height:auto;
+} */
+
+
+
+
+/*footer*/
+.footer {
+    background-color:#eee;
+}
+
+/* .footer__items  {
+    display:flex;
+} */
+
+.footer__link-icon:hover {
+    color:green;
+    color:var(--strong-cyan);
+    
+}
+
+.footer__link-icon:active {
+    opacity:0.8;
+}
