@@ -145,18 +145,12 @@ p {
 /*footer*/
 .footer {
     background-color:#eee;
-}
-
-/* .footer__items  {
-    display:flex;
-} */
-
-.footer__link-icon:hover {
-    color:green;
-    color:var(--strong-cyan);
+    position: relative;
+    /* padding:1rem; */
     
 }
 
-.footer__link-icon:active {
-    opacity:0.8;
+.footer__logo {
+    max-width:3rem;
 }
+
